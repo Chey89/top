@@ -1,0 +1,4 @@
+[01-May-2025 17:09:44 UTC] PHP Warning:  Undefined variable $filename in /home/sabomdzv/billarrd.com/top/streamers/stream-diario/updater/data/streamupdater.php on line 192
+[01-May-2025 17:11:02 UTC] PHP Warning:  Undefined variable $filename in /home/sabomdzv/billarrd.com/top/streamers/stream-diario/updater/data/streamupdater.php on line 192
+[01-May-2025 17:12:42 UTC] PHP Warning:  Undefined variable $filePath in /home/sabomdzv/billarrd.com/top/streamers/stream-diario/updater/data/streamupdater.php on line 192
+[01-May-2025 17:16:26 UTC] PHP Warning:  Undefined variable $tempPath in /home/sabomdzv/billarrd.com/top/streamers/stream-diario/updater/data/streamupdater.php on line 192

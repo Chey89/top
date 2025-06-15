@@ -1,0 +1,28 @@
+{
+    "model": "deepseek-chat",
+    "messages": [
+        {
+            "role": "system",
+            "content": "Analiza la imagen y devuelve \u00daNICAMENTE un JSON v\u00e1lido con el formato:\r\n\r\n{\r\n    \"ranking\": [\r\n        {\r\n            \"posicion\": \"01\",\r\n            \"titulo\": \"Ejemplo\",\r\n            \"streamer\": \"Streamer\",\r\n            \"plataforma\": \"Plataforma\",\r\n            \"pais\": \"Pa\u00eds\",\r\n            \"inicio\": \"2023-01-01 12:00:00\",\r\n            \"fin\": \"2023-01-01 14:00:00\",\r\n            \"duracion\": \"2 horas\",\r\n            \"audiencia_media\": 15000,\r\n            \"minuto_de_oro\": {\r\n                \"audiencia\": 25000,\r\n                \"hora\": \"13:30\"\r\n            },\r\n            \"avatar\": \"Descripci\u00f3n\"\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Analiza esta imagen y extrae la informaci\u00f3n del ranking de emisiones seg\u00fan el formato solicitado."
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": "https:\/\/billarrd.com\/top\/streamers\/stream-diario\/updater\/data\/img\/postimg\/"
+                    }
+                }
+            ]
+        }
+    ],
+    "response_format": {
+        "type": "json_object"
+    },
+    "max_tokens": 4000
+}
